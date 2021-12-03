@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.main-container{
+    /*border: 2px solid red;*/
+    padding: 20px;
+    background-color: rgb(12,23,41);
+    
+}
+.sub-container{
+    /*border: 2px solid rgb(146, 163, 68);*/
+    background-color: rgb(21,38,62);
+    padding: 15px;
+    border-radius: 20px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.image-equilibrium{
+    margin:5px;
+    /*border:2px solid greenyellow;*/
+}
+h3,.jules_words{
+    color:white;
+    margin-top: 20px;
+}
+p{
+    color:rgb(180, 180, 180);
+    /*border: 2px solid lawngreen;*/
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 15px;
+}
+.avatar{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*border: 1px solid rgb(248, 252, 242);*/
+}
+.line{
+    border: 0.1px solid rgb(202, 202, 202);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.jules_avatar{
+    width:30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.jules_words{
+    margin-top: 5px;
+    font-size: 14px;
+    color:rgb(180, 180, 180);
+}
+.ethereum-point,.clock-point{
+    color:rgb(82, 235, 219);
+    margin-left: 10px;
+}
+.ethereum-icon-point{
+    display: flex;
+    /*border: 2px solid brown;*/
+    margin-left: 10px;
+    
+}
+.clock-icon-point{
+    display: flex;
+    /*border: 2px solid brown;*/
+}
+.clock-point{
+    color:rgb(180, 180, 180);  
+}
+.ethereumlogo{
+    /*border:2px solid white;*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+@media only screen and (min-width: 1440px){
+    .sub-container{
+        /*border: 2px solid rgb(146, 163, 68);*/
+        background-color: rgb(21,38,62);
+        padding: 15px;
+        border-radius: 20px;
+        margin: 25%;
+    }
+   
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    h3{
+        color:white;
+        margin-top: 20px;
+        font-size: 50px;
+
+    }
+    p{
+        color:rgb(180, 180, 180);
+        /*border: 2px solid lawngreen;*/
+        margin-top: 50px;
+        margin-bottom: 50px;
+        line-height: 50px;
+        font-size: 42px;
+    }
+    .jules_words{
+        margin-top: 5px;
+        color:rgb(180, 180, 180);
+        line-height: 50px;
+        font-size: 42px;
+    }
+    .jules_avatar{
+        width:60px;
+        height: 60px;
+        margin-right: 15px;
+        
+    }
+    .avatar{
+        display: flex;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        /*border: 1px solid rgb(248, 252, 242);*/
+    }
+    .ethereum-point,.clock-point{
+        color:rgb(82, 235, 219);
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .ethereum-icon,.clock-icon{
+        width: 35px;
+        height:35px;
+    }
+    .ethereumlogo{
+        /*border:2px solid white;*/
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .equilibrium-image{
+        width: 100%;
+    }
+      
+}
